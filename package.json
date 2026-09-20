@@ -1,0 +1,16 @@
+{
+  "name": "konoha-security-bot",
+  "version": "1.0.0",
+  "description": "WhatsApp Group Security Bot powered by Baileys",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "@whiskeysockets/baileys": "latest",
+    "pino": "^9.7.0"
+  }
+}
